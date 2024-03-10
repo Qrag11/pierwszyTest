@@ -1,0 +1,521 @@
+    1  gcc main.c -o a.c -lrt
+    2  ./a.c
+    3  gcc main.c -o a.c -lrt
+    4  ./a.c
+    5  cd PRS_ZAD/
+    6  gcc main.c -o a.c
+    7  ./a.c
+    8  vim main.c 
+    9  ./a.c
+   10  gcc main.c -o a.c
+   11  gcc main.c -o a.c
+   12  gcc main.c -o a.c
+   13  gcc main.c -o a.c
+   14  ./a.c
+   15  ./a.c main.c asw.c 
+   16  export WIELKOSC=1024
+   17  ./a.c main.c asw.c 
+   18  ls
+   19  ls
+   20  cd PRS_ZAD/
+   21  ./a.c
+   22  ./a.c 2 3 4
+   23  vim 
+   24  vim main.c
+   25  gcc mian.c -o a.c
+   26  ls
+   27  /a.c main.c ja.c 23
+   28  vim main.c
+   29  gcc main.c -o a.c
+   30  ./a.c main.c jp.c 512
+   31  export WIELKOSC=512
+   32  ./a.c
+   33  ./a.c main.c jp.c
+   34  ls
+   35  ls
+   36  export WIELKOSC=1
+   37  ./a.c main.c jp.c
+   38  ls
+   39  vim jp.c
+   40  gcc main.c -o a.c
+   41  ./a.c
+   42  gcc main.c -o a.c
+   43  ./a.c
+   44  vim main.c
+   45  rm main.c
+   46  vim main.c
+   47  gcc main.c -o programTSL -lssl -lcrypto
+   48  ./programTSL
+   49  openssl genrsa -aes256 -out key.key 4096
+   50  ls
+   51  cd PRS_ZAD/
+   52  ls
+   53  openssl s_client -connect localhost:numer_portu -tls1_3
+   54  cd PRS_ZAD/
+   55  gcc main2.c -o a2.c
+   56  ./a2.c 44181
+   57  ./a2.c juliusz 44181
+   58  ./a2.c 26032
+   59  ./a2.c juliusz 26032
+   60  ./a2.c juliusz 22948
+   61  ./a2.c juliusz 22948
+   62  ./a2.c juliusz 26032
+   63  ./programTSL 
+   64  vim klientTSL
+   65  rm klientTSL 
+   66  vim klientTSL.c
+   67  gcc klientTSL.c -o klientTSL
+   68  gcc klientTSL.c -o klientTSL -lssl -lcrypto
+   69  ./klientTSL 
+   70  openssl genrsa -aes256 -out key.key 4096
+   71  openssl rsa -in key.key -out key.pem
+   72  openssl req -new -key key.pem -out cerreq.csr
+   73  openssl req -new -x509 -days 3650 -key key.pem -out cert.pem
+   74  openssl s_server -cert ./cert.pem -key ./key.pem -tls1_3
+   75  ps
+   76  ps -a
+   77  ps -aux
+   78  kill 66902 -
+   79  ps -aux
+   80  ps -aux
+   81  ps -a
+   82  ps -aux
+   83  top
+   84  ps -aux
+   85  kill 72725 -9
+   86  ./a.c
+   87  ls
+   88  cd PRS_ZAD/
+   89  ls
+   90  rm a.c.core 
+   91  rm cerreq.csr 
+   92  kill 85048 -9
+   93  rm key.key
+   94  ;s
+   95  ls
+   96  rm jp.c
+   97  rm a2.c
+   98  rm a.c
+   99  ls
+  100  rim key.pem
+  101  rm key.pem 
+  102  ls
+  103  rm cert.pem 
+  104  rm asw.c 
+  105  ls
+  106  ./programTSL 
+  107  ````
+  108  ls
+  109  ls
+  110  man rpc
+  111  rpcinfo
+  112  ssh sxterm
+  113  spcinfo
+  114  man rpcgen
+  115  man rpc
+  116  ssh juliusz
+  117  ls
+  118  man rpcgen
+  119  man rpcbind
+  120  man socket
+  121  ssh sxterm
+  122  vi plik.x
+  123  ls
+  124  mkdir zadanko
+  125  ls
+  126  vim plik.x
+  127  cd zadanko
+  128  ls
+  129  vim plik.x
+  130  rpcgen -N -a pli.x
+  131  rpcgen -N -a plik.x
+  132  vim plik.x
+  133  rpcgen -N -a plik.x
+  134  vim plik.x
+  135  rpcgen -N -a plik.x
+  136  vim plik.x
+  137  rpcgen -N -a plik.x
+  138  ls
+  139  vi plik_server.c 
+  140  vim plik_client.c 
+  141  vim plik_server.c 
+  142  vim plik.x
+  143  vim plik_server.c 
+  144  make -f Makefile.plik
+  145  vim plik.x
+  146  vim plik_server.c 
+  147  make -f Makefile.plik
+  148  ls
+  149  ./plik_server 
+  150  ps
+  151  ./plik_server localhost
+  152  ./plik_server 
+  153  vim plik_server.c
+  154  vim plik_client.c
+  155  ls
+  156  ./plik_server 
+  157  ./plik_server &
+  158  ./plik_client 
+  159  ./plik_client Jak
+  160  ./plik_client Jak 3
+  161  ./plik_client localhost Jak 3
+  162  vim plik_client.c
+  163  ps
+  164  kill 8652
+  165  ps
+  166  ./plik_server & jak 3
+  167  ps
+  168  ./plik_client "jak" 3
+  169  ./plik_client localhost "jak" 3
+  170  vim plik_server.c
+  171  make -f MakeFile.plik
+  172  ls
+  173  ps
+  174  kill 9538
+  175  make -f MakeFile.plik
+  176  ps
+  177  make -f MakeFile.plik
+  178  stop
+  179  make -f Makefile.plik
+  180  ./plik_server &
+  181  ./plik_client 
+  182  ./plik_client localhost 
+  183  ./plik_client localhost jak 3
+  184  [s
+  185  ps
+  186  kill 10925
+  187  ls
+  188  vi plik_client.c
+  189  make -f Makefile.plik
+  190  vim plik_client.c
+  191  make -f Makefile.plik
+  192  vim plik_client.c
+  193  make -f Makefile.plik
+  194  vi plik.x
+  195  make -f Makefile.plik
+  196  vim plik_client.c
+  197  make -f Makefile.plik
+  198  vim plik_server
+  199  vim plik_server.c
+  200  vim plik.c
+  201  vim plik.x
+  202  vim plik_server.c
+  203  vim plik.client.c
+  204  vim plik_client.c
+  205  make -f Makefile.plik
+  206  vim plik.x
+  207  vim serv_client.c
+  208  vim plik_client.c
+  209  make -f Makefile.plik
+  210  rpcgen -N -a plik.x
+  211  ;s
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd zadanko
+  216  ls
+  217  vim plik_server.c
+  218  make - Makefile.plik
+  219  make -f Makefile.plik
+  220  vim plik_client.c
+  221  vim plik.x
+  222  make -f Makefile.plik
+  223  vim plik_server.c
+  224  ps
+  225  vim plik_client.c
+  226  make -f Makefile.plik
+  227  vim plik_server.c
+  228  cd ..
+  229  mkdir zadanko2
+  230  vim plik.x
+  231  ls
+  232  cd zadanko2
+  233  ls
+  234  vim plik.x
+  235  rpcgen -N -a plik.x
+  236  vim plik.x
+  237  rpcgen -N -a plik.x
+  238  ls
+  239  vim plik_client.c
+  240  vim plik_server.c 
+  241  make -f Makefile.plik
+  242  vim plik_client.c
+  243  make -f Makefile.plik
+  244  vim plik_client.c
+  245  make -f Makefile.plik
+  246  vim plik.x
+  247  vim plik_client.c 
+  248  make -f Makefile.plik
+  249  vim plik_client.c 
+  250  make -f Makefile.plik
+  251  vim plik_client.c 
+  252  vim plik.x
+  253  make -f Makefile.plik
+  254  vim plik_server.c 
+  255  make -f Makefile.plik
+  256  vim plik_client.c 
+  257  make -f Makefile.plik
+  258  vim plik_client.c 
+  259  make -f Makefile.plik
+  260  vim plik_client.c 
+  261  vim plik_server.c 
+  262  make -f Makefile.plik
+  263  vim plik_server.c 
+  264  vim plik.x
+  265  make -f Makefile.plik
+  266  vim plik_server.c 
+  267  vi plik_client.c 
+  268  vim plik_client.c 
+  269  make -f Makefile.plik
+  270  vim plik_client.c 
+  271  make -f Makefile.plik
+  272  vim plik_client.c 
+  273  vim plik.x
+  274  vim  plik_client.c 
+  275  make -f Makefile.plik
+  276  vim  plik_client.c 
+  277  make -f Makefile.plik
+  278  vim  plik_client.c 
+  279  make -f Makefile.plik
+  280  psql
+  281  psql
+  282  ssh ultra60
+  283  psql
+  284  sql
+  285  psql
+  286  ssh sxterm
+  287  psql
+  288  ls
+  289  psql
+  290  ls
+  291  cd programowanie_sieciowe/
+  292  ls
+  293  cd
+  294  ls
+  295  mkdir rpc
+  296  ls
+  297  cd rpc/
+  298  ls
+  299  vim plik.x
+  300  rpcgen -N plik.x
+  301  ls
+  302  vim plik.x
+  303  ls
+  304  vim plik_svc.c 
+  305  ls
+  306  vim plik_clnt.c 
+  307  vim plik_svc.c 
+  308  ls
+  309  rpcgen -N -a plik.x
+  310  ls
+  311  vim plik_server.c 
+  312  ls
+  313  vim plik_client.c 
+  314  vim plik_server.c 
+  315  make -f Makefile.plik
+  316  ls
+  317  make -f makefile.plik 
+  318  vim plik_client.c 
+  319  make -f makefile.plik 
+  320  vim plik_client.c 
+  321  make -f makefile.plik 
+  322  vim plik.x
+  323  ls
+  324  make -f Makefile.plik
+  325  make -f makefile.plik 
+  326  vim plik.x
+  327  make -f makefile.plik 
+  328  wq
+  329  rpcgen -N -a plik.x
+  330  ls
+  331  vim plik_server.c 
+  332  make -f makefile.plik 
+  333  ls
+  334  vim plik_client.c 
+  335  make -f makefile.plik 
+  336  vim plik_client.c 
+  337  make -f makefile.plik 
+  338  vim plik.x
+  339  make -f makefile.plik 
+  340  vim plik.x
+  341  make -f makefile.plik 
+  342  vim plik.x
+  343  make -f makefile.plik 
+  344  make -f makefile.plik 
+  345  ls
+  346  mkdir test
+  347  cp plik.x test
+  348  cd test/
+  349  rpcgen -N -a plik.x 
+  350  make -f makefile.plik 
+  351  ls
+  352  vim plik_server.c
+  353  vim plik.x
+  354  vim plik_server.c
+  355  ls
+  356  vim plik_client.c 
+  357  make -f makefile.plik 
+  358  vim plik_server.c
+  359  vim plik_client.c
+  360  vim plik_server.c
+  361  make -f makefile.plik 
+  362  vim plik.x
+  363  vim plik_server
+  364  vim plik_server.c
+  365  vim plik_client.c
+  366  make -f makefile.plik 
+  367  vim plik.x
+  368  ls
+  369  psql
+  370  ls
+  371  psql
+  372  ls
+  373  psql
+  374  man printf
+  375  man signal
+  376  man Signal
+  377  man mknod
+  378  ls
+  379  mkdir prs_nauka
+  380  cd prs_nauka/
+  381  vim serwer
+  382  gcc serwer -a a.c
+  383  gcc serwer  a.c -o
+  384  gcc serwer  -o a.c
+  385  gcc serwer  -c a.c
+  386  gcc serwer  -o a.c
+  387  ls
+  388  gcc serwer -o a.c
+  389  vim serwer 
+  390  gcc -o serwer serwer.c
+  391  gcc -o serwer serwer
+  392  vim serwer.c
+  393  vim serwer
+  394  ls
+  395  rm serwer
+  396  ls
+  397  vim serwer.c 
+  398  gcc -o serwer.c serwer
+  399  vim serwer.c 
+  400  gcc -o serwer.c serwer
+  401  gcc serwer.c -o serwer
+  402  vim serwer.c 
+  403  gcc serwer.c -o serwer
+  404  man strcpy
+  405  man str
+  406  man mknod
+  407  vim serwer.c 
+  408  gcc serwer.c -o serwer
+  409  vim serwer.c 
+  410  rm serwer.c 
+  411  vim serwer.c
+  412  gcc serwer.c -o serwer
+  413  vim serwer.c
+  414  gcc serwer.c -o serwer
+  415  vim serwer.c
+  416  gcc serwer.c -o serwer
+  417  .serwer
+  418  /serwer
+  419  ./serwer
+  420  vim klient.c
+  421  gcc klient.c -k klient
+  422  gcc klient.c -o klient
+  423  vim klient.c 
+  424  gcc klient.c -o klient
+  425  vim klient.c 
+  426  gcc klient.c -o klient
+  427  ls
+  428  vim klient.c 
+  429  gcc klient.c -o klient
+  430  vim klient.c 
+  431  gcc klient.c -o klient
+  432  ./klient
+  433  ./serwer 
+  434  vim serwer.c
+  435  ./serwer 
+  436  vim serwer.c
+  437  gcc serwer.c -o serwer
+  438  ./serwer 
+  439  vim serwer.c
+  440  gcc serwer.c -o serwer
+  441  ./serwer 
+  442  vim serwer
+  443  vim serwer.c
+  444  ./serwer 
+  445  vim serwer.c
+  446  gcc serwer.c -o serwer
+  447  ./serwer 
+  448  vim serwer
+  449  vim serwer.c
+  450  cd prs_nauka/
+  451  ./klient 
+  452  3
+  453  ./klient 
+  454  vim klient.c
+  455  vim klient2.c
+  456  rm klient2.c
+  457  vim klient2.c
+  458  rm klient2.c
+  459  vim klient2.c
+  460  rm klient2.c
+  461  vim klient.c
+  462  vim klient2.c
+  463  rm klient2.c
+  464  vim klient2.c
+  465  gcc klient2.c -o klient2
+  466  vim klient2.c
+  467  gcc klient2.c -o klient2
+  468  ./klient2
+  469  vim klient.c
+  470  gcc klient.c -o klient
+  471  ./klient
+  472  vim klient.c
+  473  ps prs_nauka/
+  474  cd prs_nauka/
+  475  ls
+  476  ./serwer 
+  477  ls
+  478  cd prs_nauka/
+  479  ls
+  480  ./klient
+  481  cd prs_nauka/
+  482  ./serwer 
+  483  vim serwer.c
+  484  vim klient.c
+  485  cd prs_nauka/
+  486  ./klient
+  487  ./klient 
+  488  shh ultra60
+  489  ssh ultra60
+  490  man mknod
+  491  man  signal
+  492  man fifo
+  493  man FIFO
+  494  man serwer
+  495  man sprintf
+  496  man open
+  497  ssh ultra6-
+  498  ssh ultra60
+  499  cd prs_nauka/
+  500  vim serwer.c
+  501  ls
+  502  mkdir gitHub
+  503  cd gitHub/
+  504  ls
+  505  git init
+  506  ls -a
+  507  vim plik.c
+  508  git status
+  509  vim plik2.c
+  510  git status
+  511  git add plik.c plik2.c
+  512  git status
+  513  git commit 
+  514  git status
+  515  git commit
+  516  git status
+  517  git remote add origin https://Qrag11@github.com/Qrag11/pierwszyTest.git
+  518  git remote -v
+  519  git push origin master
+  520  git status
+  521  history > plik.txt
